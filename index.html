@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Timesheet</title>
+</head>
+<body>
+    <div class="timesheet-container">
+        <h1>TIMESHEET</h1>
+        <div class="timesheet"  action="#timesheet-log">         
+            <form id="userForm">
+                <div class="client-list">
+                    Client List:
+                    <select id="client-list" value="client">
+                    <option value="" selected="selected">Select Client</option>
+                    <option value="EMBusiness Products">EMBusiness Products</option>
+                    <option value="Cendyn">Cendyn</option>
+                    <option value="LeLander">LeLander</option>
+                    <option value="Carusel">Carusel</option>
+                    </select>
+                </div>
+                <div class="date">
+                    Date: <input type="date" id="date-picker" value="date"/>
+                </div>
+                <div class="punch-in">
+                    Time in: <input type="time" id="punch-in" value="time-in"/>
+                </div>
+                <div class="punch-out">
+                    Time out: <input type="time" id="punch-out" value="time-out"/>
+                </div>
+                <div class="taskfield">
+                    Task Description: <br>
+                    <textarea id="description" rows="4" cols="50" value="taskfield"></textarea>
+                </div> 
+                <input type="button" value="submit" id="button">             
+            </form>                  
+        </div>
+        <!-- <button type="submit" id="submit">Submit</button> -->
+        
+        <!-- OUTPUT FORM -->
+            <div id="timesheet-log">
+                <h1>TimeSheet log</h1>
+                Client Name: <span id="client"></span><br>
+                Date: <span id="date"></span><br>
+                Time in: <span id="time-in"></span><br>
+                Time out: <span id="time-out"></span><br>
+                Taskfield Comments: <span id="taskfield"></span>
+            </div>     
+        </div>
+</body>
+<script src="script.js">
+</script>
+</html>
+
+

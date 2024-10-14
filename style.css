@@ -1,0 +1,57 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0)
+}
+
+.timesheet-container {
+    width: 85%;
+    max-height: 300px;
+    border: 2px solid rgb(235, 227, 227);
+    background-color: rgb(236, 230, 230);
+    padding: 15px;
+
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid rgb(153, 151, 59);
+    border-radius: 4px;
+    background-color: rgba(255, 123, 0, 0.507);
+    padding: 30px;
+}
+
+select {
+    margin-left: 30px;
+}
+
+input {
+
+    margin-left: 30px;
+}
+
+.client-list {
+    margin-top: 3px;
+}
+.date {
+    margin-top: 3px;
+}
+.punch-in {
+    margin-top: 3px;
+}
+.punch-out {
+    margin-top: 3px;
+}
+
+.taskfield textarea {
+
+    resize: vertical;
+}
