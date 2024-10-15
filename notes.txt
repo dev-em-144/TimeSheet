@@ -1,0 +1,72 @@
+========== Timesheet Main Menu =========
+
+Client List - dropdown list
+Date picker
+Time in && Time out
+Task Description - input field
+Hours Worked - should be populated when time in and time out is inputed
+
+========
+
+click vs submit
+https://betterprogramming.pub/click-vs-submit-eventlisteners-536b62be9359
+
+basics: FORM TAG
+https://www.w3schools.com/tags/tag_form.asp
+https://www.w3schools.com/tags/att_form_method.asp
+
+Select option
+Select All option
+Filter option
+    - By Date
+    - By Client
+All fields must be filled before submision
+
+https://www.w3schools.com/howto/howto_js_cascading_dropdown.asp
+https://www.w3schools.com/tags/att_input_type_date.asp
+https://www.w3schools.com/tags/tag_textarea.asp
+
+=====================================================
+Task Description field to stretch within the contanier
+https://stackoverflow.com/questions/3899463/how-can-i-prevent-the-textarea-from-stretching-beyond-his-parent-div-element-g
+
+====================== datePicker =================
+https://dev.to/gaelgthomas/array-to-string-without-commas-in-javascript-4mg6
+
+
+format date and time as follows: - the new Date(); not required since date input is being used
+MM/DD/YYYY
+
+Array methods = slice(); split(); join();
+
+https://www.w3schools.com/jsref/jsref_slice_array.asp
+https://www.w3schools.com/jsref/jsref_slice_string.asp
+
+
+2024-10-14   = format form date picker:
+
+
+
+====================================================================================================
+var date = new Date();
+
+https://www.w3schools.com/tags/att_input_type_date.asp
+https://www.w3schools.com/js/js_date_methods.asp
+https://stackoverflow.com/questions/28729634/set-values-in-input-type-date-and-time-in-javascript
+https://javascript.plainenglish.io/how-to-set-the-date-value-of-a-date-input-with-javascript-c75c3e4005c
+https://ej2.syncfusion.com/documentation/datepicker/getting-started
+https://www.syncfusion.com/javascript-ui-controls/js-datepicker
+
+=================================== Time: =============================================================== 
+03:00:00 AM  || 03:00:00 PM
+display am / pm
+
+https://jsfiddle.net/shy4a5b3/
+=====================================================
+Send Log into a review page that can be edited
+=====================================================
+Save log and add new log
+=====================================================
+Save log and delete log
+=======================================================
+Save log and edit log
